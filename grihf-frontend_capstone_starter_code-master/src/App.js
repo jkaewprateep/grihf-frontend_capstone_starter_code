@@ -9,6 +9,7 @@ import Login from "./Components/Login/Login";
 import Instant_Consultation from "./Components/Instant_Consultation/InstantConsultation";
 import Notification from "./Components/Notification/Notification";
 import Feedback from "./Components/ReviewForm/ReviewForm";
+import ProfileCard from "./Components/ProfileCard/ProfileCard";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/instant-consultation" element={<Instant_Consultation/>}/>
                 <Route path="/notification" element={<Notification/>}/>
                 <Route path="/feedback" element={<Feedback/>}/>
+                <Route path="/profile" element={<ProfileCard/>}/>
               </Routes>
             
         </BrowserRouter>
